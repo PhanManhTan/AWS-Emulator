@@ -105,10 +105,10 @@ Requires Python 3 with venv support. Keep the emulator running and use the same 
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python demos/dynamodb_read_write.py
+python dynamodb_read_write.py
 ```
 
-[The Python example](demos/dynamodb_read_write.py) uses Boto3's table resource to write a plain dictionary and read it back. It should print:
+[The Python example](dynamodb_read_write.py) uses Boto3's table resource to write a plain dictionary and read it back. It should print:
 
 ```text
 WRITE: {'id': 'python-1', 'message': 'Hello from Python!'}
