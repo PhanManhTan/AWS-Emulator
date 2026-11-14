@@ -2,8 +2,6 @@
 
 Start one AWS Emulator container, then use familiar `aws` commands to try **S3**, **DynamoDB**, and **SQS** locally. An optional tiny Python example writes and reads the same DynamoDB table. No AWS account is needed.
 
-Run the command blocks one at a time. For a short Vietnamese Facebook introduction, see [BLOG_FACEBOOK.md](BLOG_FACEBOOK.md).
-
 Run the commands below in **Bash** on Linux, macOS, or Ubuntu WSL. Install Docker, AWS CLI v2, and curl first. If Docker runs inside WSL, keep the Ubuntu terminal open during the demo.
 
 ## 1. Start AWS Emulator
